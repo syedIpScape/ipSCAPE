@@ -7,7 +7,7 @@
         "ipSCAPE_Campaign__c": "campaignTitle"       
       },
       "inbound": {              
-        "ipSCAPE_Campaign__c": "campaignTitle",        
+        "ipSCAPE_Campaign__c": "campaignTitle"        
       },
       "default": {        
         "ipSCAPE_Customer_Phone_Number__c": "customerPhoneNumber",        
