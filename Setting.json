@@ -18,36 +18,5 @@
       "disablePaymentsBtn": "true",
       "defaultWrapCode": null,
       "displayWrapCodes": "true"
-    },
-    "screenPopConfig": {
-        "default": {
-          "ref": "nationalPhoneNumber"
-        },
-        "rules": [
-          {
-            "campaignId": 64,
-            "search": false,
-            "ref": "SFAccountId"
-          },
-          {
-            "campaignId": 676,
-            "search": false,
-            "ref": "SFAccountId"
-          },
-          {
-            "campaignId": 10,
-            "search": false,
-            "ref": "customerKey"
-          },
-          {
-            "callType": "outbound",
-            "search": false,
-            "ref": ["customerKey", "SFLeadId"]
-          },
-          {
-            "callType": "transfer",
-            "ref": "internationalPhoneNumber"
-          }
-        ]
-      }
-  }
+    }
+}
