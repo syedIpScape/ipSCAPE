@@ -10,7 +10,7 @@
         "ipSCAPE_Campaign__c": "campaignTitle"        
       },
       "default": {        
-        "ipSCAPE_Customer_Phone_Number__c": "Phone",        
+        "Phone": "customerPhoneNumber",        
         "ipSCAPE_AgentName__c": "agentFullName"
       }
     },
