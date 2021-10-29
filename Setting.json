@@ -1,26 +1,17 @@
 {
     "map": {
-      "transfer": {
-        "ipSCAPE_QueueTime__c": "timeInQueue",
+      "transfer": {        
         "ipSCAPE_Campaign__c": "campaignTitle"
       },
       "outbound": {	  
-        "ipSCAPE_QueueTime__c": "timeInQueue",      
-        "ipSCAPE_PhoneNumber__c": "customerPhoneNumber"
+        "ipSCAPE_Campaign__c": "campaignTitle"       
       },
-      "inbound": {      
-        "ipSCAPE_QueueTime__c": "timeInQueue",
-        "ipSCAPE_Campaign__c": "campaignTitle",
-        "ipSCAPE_PhoneNumber__c": "customerPhoneNumber"
+      "inbound": {              
+        "ipSCAPE_Campaign__c": "campaignTitle",        
       },
-      "default": {
-        "ipSCAPE_CallEndDate__c": "callEndedDate",
-        "ipSCAPE_CallStartDate__c": "callStartedDate",
-        "ipSCAPE_PhoneNumber__c": "customerPhoneNumber",
-        "ipSCAPE_Activity__c": "activityId",
-        "ipSCAPE_ActivityOrigin__c": "'ipSCAPE'",
-        "ipSCAPE_CallCenter__c": "platformPhoneNumber",
-        "ipSCAPE_Agent_Full_Name__c": "agentFullName"
+      "default": {        
+        "ipSCAPE_Customer_Phone_Number__c": "customerPhoneNumber",        
+        "ipSCAPE_AgentName__c": "agentFullName"
       }
     },
     "settings": {
