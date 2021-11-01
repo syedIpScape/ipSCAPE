@@ -11,7 +11,8 @@
       },
       "default": {        
         "ipSCAPE_Customer_Phone_Number__c": "customerPhoneNumber",        
-        "ipSCAPE_AgentName__c": "agentFullName"
+        "ipSCAPE_AgentName__c":"agentFullName",
+        "ipSCAPE_Time_In_Queue__c":"timeInQueue"
       }
     },
     "settings": {
